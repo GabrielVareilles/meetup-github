@@ -1,0 +1,169 @@
+<section>
+
+<h1>Github</h1>
+
+<h2>Developement collaboratif</h2>
+<div class="container">
+  <img class="img-responsive" style="border: none;max-width: 150px;height: auto;" src="images/lewagon.png">
+  <img class="img-responsive" style="border: none;max-width: 150px;height: auto;" src="images/github.png">
+</div>
+<p>Gabriel de Vareilles</p>
+
+</section>
+<section>
+
+<p><img src="images/lowering.jpg" alt="Before: pipeline"></p>
+
+<h6>About me: From pipeline to asset pipeline</h6>
+
+<aside class="notes">
+
+<p>This is a speaker note. It’s only visible in presentation mode.</p>
+
+</aside></section>
+<section>
+
+<h2>Le projet: KittyFinder MVP</h2>
+<div class="container">
+  <img class="img-responsive" style="border: none;max-width: 70px;height: auto;" src="images/black_cat.svg">
+</div>
+<h3>Les objectifs</h3>
+
+<ol>
+  <li>Définition des User Stories</li>
+  <li>Création de l’App Rails (pour le plaisir des yeux !)</li>
+  <li>Création du repo Github</li>
+  <li>Gestion de projet avec git et Zenhub</li>
+</ol>
+
+</section>
+<section>
+
+<h2>Disclaimer</h2>
+
+</section>
+<section>
+<section>
+
+<p>User Stories: As a user I can, ……</p>
+
+</section>
+<section>
+
+<p class="pull-left"><em>As a User, I can sign in / log in</em></p>
+<p class="pull-left"><em>As a User, I can report a missing Kitty</em></p>
+<p class="pull-left"><em>As a User, I can see missing Kitties around me</em></p>
+<p class="pull-left"><em>As a User, I can pick a Kitty</em></p>
+
+<p>…..</p>
+
+<p><em>As an Admin, I can see missing Kitties all around the world</em></p>
+
+</section>
+</section>
+<section>
+
+<h2>Création de l’App Rails</h2>
+
+<pre><code>    rails new \
+    -T --database postgresql \
+    -m https://raw.githubusercontent.com/lewagon/rails-templates/master/devise.rb \
+    CHANGE_THIS_TO_YOUR_RAILS_APP_NAME
+</code></pre>
+
+</section>
+<section>
+
+<h2>Création du repository Github</h2>
+
+<pre><code>    git init
+    git add .
+    git commit -m "initial commit"
+
+    hub create
+    git push -u origin master
+    hub browse
+</code></pre>
+
+</section>
+<section>
+
+<h2>Projet Github</h2>
+
+<ol>
+  <li>Issues</li>
+  <li>Project Board</li>
+  <li>Product BackLog</li>
+</ol>
+
+<div class="container">
+<img class="img-responsive" style="border: none;max-width: 90px;height: auto;" src="images/zenhub.png">
+</div>
+
+</section>
+<section>
+<section>
+
+<h2>Les commandes Github &amp; Bonnes pratiques</h2>
+<div class="container">
+<img class="img-responsive" style="border: none;width: 300px;height: auto;" src="images/git.svg">
+</div>
+
+</section>
+<section>
+
+<h2>Master</h2>
+
+<div class="container">
+  <img class="img-responsive" style="border: none;width: 500px;height: auto;" src="images/master-only.png">
+</div>
+
+</section>
+<section>
+
+<h2>Master &amp; Develop</h2>
+
+<div class="container">
+  <img class="img-responsive" style="border: none;width: 500px;height: auto;" src="images/develop.png">
+</div>
+
+</section>
+</section>
+<section>
+
+<h2>Kit minimum de survie sur github</h2>
+
+<p>Création d’une nouvelle branche</p>
+
+<pre><code>    git checkout -b &lt;branch_name&gt;
+</code></pre>
+
+<p>Code sur une branche</p>
+
+<pre><code>    git add ( . / -p)
+    git commit -m "commit msg"
+    git push origin &lt;branch_name&gt;
+</code></pre>
+
+<p>Rassembler les branches</p>
+
+<pre><code>    git merge &lt;branch_name&gt;
+</code></pre>
+
+</section>
+<section>
+
+<h3>And Many more….!</h3>
+
+<pre><code>    git pull --rebase
+    ....
+</code></pre>
+
+</section>
+<section>
+<section>
+
+<p>Merci de votre attention !</p>
+
+</section>
+</section>
